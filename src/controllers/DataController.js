@@ -5,13 +5,13 @@ var categoryByTemp = require('../util/category')
 var SpotifyWebApi = require('spotify-web-api-node');
 
 var spotifyApi = new SpotifyWebApi({
-    clientId: 'Colocar aqui client id',
-    clientSecret: 'seu client secrete',
+    clientId: 'Seu client id',
+    clientSecret: 'Seu client secret',
     redirectUri: 'http://localhost:3001/callback'
   });
 
 
-spotifyApi.setAccessToken('colocar o Token de acesso');
+spotifyApi.setAccessToken('O seu Token de acesso');
 
 var temp = '';
 
