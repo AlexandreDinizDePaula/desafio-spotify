@@ -5,13 +5,13 @@ var categoryByTemp = require('../util/category')
 var SpotifyWebApi = require('spotify-web-api-node');
 
 var spotifyApi = new SpotifyWebApi({
-    clientId: '6b44b46f160e4a4892de57ab5b8ab67d',
-    clientSecret: '2cc1275f2f8c453cbb9d8d2e1e2c41c3',
+    clientId: 'Colocar aqui client id',
+    clientSecret: 'seu client secrete',
     redirectUri: 'http://localhost:3001/callback'
   });
 
 
-spotifyApi.setAccessToken('BQBfTZczRbtiOPZiGKge7pBbVu1KojdEaO5JHr9EcrFR3XaDdmviesa1poAcelK_KRRb-rhT3fJbzhiuVxpcWntDosiSw8s6JHGi6_UKit_iqUeKveBnmFwvhxrDHkzmntN0o5tbXesLPnXFlQllcPWdiDbCPCde_LJ8');
+spotifyApi.setAccessToken('colocar o Token de acesso');
 
 var temp = '';
 
